@@ -5,3 +5,57 @@
   object-fit: cover;
   border: 2px solid #ccc;
 }
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+   background: #e6f2f8;
+  
+}
+
+
+
+.contact-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.contact-info p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #e6f2f8; /* light ice blue */
+}
+.resume {
+  background: #e6f2f8;;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #d4e4ec;
+}
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #005f87;
+}
+.profile-pic {
+  width: 60px; /* or 70px if you want slightly bigger */
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid #ccc;
+}
